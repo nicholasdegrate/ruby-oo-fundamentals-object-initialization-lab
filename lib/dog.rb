@@ -10,8 +10,7 @@ class Dog
       @name = params.fetch(:name, 'Wilbert')
     end
   
-    def to_s
-      "#{color} #{type}"
+    def dog_breed_and_name
+      "#{breed} #{name}"
     end
 end
-å
